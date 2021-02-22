@@ -1,0 +1,5 @@
+Todos los clientes mayores de 20 años
+SELECT * FROM `cliente` WHERE edad>20
+
+Agrupar numero de clientes por sexo
+select genero , count(*) as cliente from cliente group by genero

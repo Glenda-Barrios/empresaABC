@@ -1,0 +1,28 @@
+
+create table cliente(
+idcliente int not null AUTO_INCREMENT primary key,
+nombres varchar(50) not null,
+apellidos varchar(50) not null,
+genero varchar(10) not null,
+edad int not null
+);
+USE [proyecto]
+GO
+INSERT INTO `cliente` (`idcliente`, `nombres`, `apellidos`, `genero`, `edad`) VALUES 
+(1,'julia patricia','perez maldonado','femenino' ,18),
+
+(2,'martha maria','ahumada torres','femenino' ,20),
+
+(3,'carlos david','peña barrios','masculino' ,21),
+
+(4,'veronica juliana','martinez escorcia','femenino' ,23),
+(5,'ronald stive','ramires dominguez','masculino' ,19),
+
+(6,'alfonso aldair','rodriguez chacon','masculino' ,25),
+(7,'jennifer lorena','vergara santos','femenino' ,24),
+
+(8,'loraine esther','olivera santana','femenino' ,21),
+(9,'isaias david','hoyos hernandez','masculino' ,18),
+
+(10,'juan carlos','barrios mesa','masculino' ,19)
+

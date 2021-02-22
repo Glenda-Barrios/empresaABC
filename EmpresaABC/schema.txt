@@ -1,0 +1,11 @@
+﻿create database clientes;
+use clientes;
+
+
+create table cliente(
+idcliente int not null auto_increment primary key,
+nombres varchar(50) not null,
+apellidos varchar(50) not null,
+genero varchar(10) not null,
+edad int not null
+);
